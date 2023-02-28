@@ -4,7 +4,7 @@ title: The log10 of 0 is over 9000… right?
 date: 2022-03-30 12:00:00 +0100
 categories: datascience python practices numpy
 tagline: Applying log10 with numpy on a subset of values, and why you should always add 'out' to numpy functions when using a where ufunc
-image: /images/roberto-sorin-2XLqS8D0FKc-unsplash.png
+image: /images/posts/2022/roberto-sorin-2XLqS8D0FKc-unsplash.png
 image_caption: Photo by <a href="https://unsplash.com/@roberto_sorin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Roberto Sorin</a> on <a href="https://unsplash.com/s/photos/mathematical-calculations?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 author: Thom Hopmans
 ---
@@ -15,7 +15,7 @@ converge (<a href="https://www.csie.ntu.edu.tw/~cjlin/libsvm/faq.html#f413" targ
 These values were dominating all other, much smaller, numerical values.
 
 <figure>
-  <img src="/images/svm-not-converging.gif" class="border shadow mb-3">
+  <img src="/images/posts/2022/svm-not-converging.gif" class="border shadow mb-3">
   <figcaption class="text-sm text-gray-600">Figure 1 – Example of a linear SVM not converging
 </figcaption>
 </figure>
@@ -29,7 +29,7 @@ The logarithm function is undefined for 0. So log10 was only applied on strictly
 i.e. no runtime warnings from applying log10 on zero. 
 
 <figure>
-  <img src="/images/log10undefined.png" class="border shadow mb-3">
+  <img src="/images/posts/2022/log10undefined.png" class="border shadow mb-3">
   <figcaption class="text-sm text-gray-600">10log(0) = undefined</figcaption>
 </figure>
 
@@ -96,7 +96,7 @@ print(
 Therefore, the proper way to use `where` (or other ufuncs) in numpy is by explicitly initializing an output array, i.e. 
 
 <figure>
-  <img src="/images/log10-carbon.png" class="border shadow mb-3">
+  <img src="/images/posts/2022/log10-carbon.png" class="border shadow mb-3">
 </figure>
 
 Now you also know!
