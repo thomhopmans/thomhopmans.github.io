@@ -1,4 +1,4 @@
-.PHONY: install styles compile serve build develop
+.PHONY: install compile serve
 
 install:
 	bundle install
@@ -8,7 +8,3 @@ compile:
 
 serve:
 	bundle exec jekyll serve --watch --livereload
-
-build: install styles compile
-
-develop: install styles serve
