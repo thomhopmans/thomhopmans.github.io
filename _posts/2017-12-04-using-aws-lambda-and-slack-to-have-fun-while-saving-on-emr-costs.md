@@ -2,7 +2,11 @@
 layout: post
 title: Using AWS Lambda and Slack to have fun while saving on EMR costs
 date: 2017-12-04 12:00:00 +0100
-categories: data-engineering aws lambda slack
+categories:
+    - data engineering
+    - aws
+    - lambda
+    - slack
 image: /images/posts/2017/abandoned.jpg
 author: Thom Hopmans
 ---

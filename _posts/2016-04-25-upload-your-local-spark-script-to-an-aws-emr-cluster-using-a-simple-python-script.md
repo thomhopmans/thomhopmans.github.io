@@ -2,8 +2,12 @@
 layout: post
 title: "Upload your local Spark script to an AWS EMR cluster using a simple Python script"
 date: 2016-04-25 12:00:00 +0100
-categories: data-engineering python aws spark
-image: /images/posts/2022/roberto-sorin-2XLqS8D0FKc-unsplash.png
+categories:
+    - data engineering
+    - python
+    - aws
+    - spark
+image: /images/posts/2016/spark_on_amazon_web_services_aws.png
 author: Thom Hopmans
 ---
 

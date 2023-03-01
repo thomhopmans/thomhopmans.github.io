@@ -2,7 +2,10 @@
 layout: post
 title: "A recommendation system for blogs: Content-based similarity (2)"
 date: 2016-02-11 12:00:00 +0100
-categories: data-science python recommendation-systems
+categories:
+    - data science
+    - python
+    - recommendation systems
 image: /images/posts/2016/contentbasedsimilarity.png
 author: Thom Hopmans
 ---
