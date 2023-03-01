@@ -2,8 +2,11 @@
 layout: post
 title: "Helping our new Data Scientists start in Python: A guide to learning by doing"
 date: 2016-09-30 12:00:00 +0100
-categories: data-science python pandas
-image: /images/posts/2016/reading.png
+categories:
+    - data science
+    - python
+    - pandas
+image: /images/posts/2016/reading.jpg
 author: Thom Hopmans
 ---
 

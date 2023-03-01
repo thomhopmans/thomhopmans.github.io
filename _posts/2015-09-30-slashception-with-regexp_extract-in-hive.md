@@ -2,7 +2,10 @@
 layout: post
 title: Slashception with regexp_extract in Hiv
 date: 2015-09-30 12:00:00 +0100
-categories: data-engineering python hive
+categories:
+   - data engineering
+   - python
+   - hive
 author: Thom Hopmans
 ---
 

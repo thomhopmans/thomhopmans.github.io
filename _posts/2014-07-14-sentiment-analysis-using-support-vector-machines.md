@@ -2,7 +2,10 @@
 layout: post
 title: Sentiment analysis using Support Vector Machines
 date: 2014-07-14 12:00:00 +0100
-categories: data-science python support-vector-machine
+categories:
+    - data science
+    - python
+    - support vector machines
 author: Thom Hopmans
 ---
 

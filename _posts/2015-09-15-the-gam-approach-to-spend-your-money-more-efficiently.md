@@ -2,7 +2,11 @@
 layout: post
 title: The GAM approach to spend your money more efficiently!
 date: 2015-09-15 12:00:00 +0100
-categories: data-science R generalized-additive-models marketing
+categories:
+  - data science
+  - R
+  - generalized additive models
+  - marketing
 author: Thom Hopmans
 ---
 

@@ -2,7 +2,10 @@
 layout: post
 title: Optimizing media spends using S-response curves
 date: 2015-04-30 12:00:00 +0100
-categories: data-science python marketing
+categories:
+    - data science
+    - python
+    - marketing
 author: Thom Hopmans
 ---
 

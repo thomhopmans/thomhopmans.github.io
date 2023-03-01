@@ -2,7 +2,11 @@
 layout: post
 title: The log10 of 0 is over 9000… right?
 date: 2022-03-30 12:00:00 +0100
-categories: datascience python practices numpy
+categories:
+  - data science
+  - python
+  - best practices
+  - numpy
 tagline: Applying log10 with numpy on a subset of values, and why you should always add 'out' to numpy functions when using a where ufunc
 image: /images/posts/2022/roberto-sorin-2XLqS8D0FKc-unsplash.png
 image_caption: Photo by <a href="https://unsplash.com/@roberto_sorin?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Roberto Sorin</a> on <a href="https://unsplash.com/s/photos/mathematical-calculations?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>

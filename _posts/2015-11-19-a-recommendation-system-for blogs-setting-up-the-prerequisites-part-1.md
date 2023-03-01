@@ -2,7 +2,10 @@
 layout: post
 title: "A recommendation system for blogs: Setting up the prerequisites (1)"
 date: 2015-11-19 12:00:00 +0100
-categories: data-science python recommendation-systems
+categories:
+    - data science
+    - python
+    - recommendation systems
 image: /images/posts/2015/connection.jpg
 author: Thom Hopmans
 ---
